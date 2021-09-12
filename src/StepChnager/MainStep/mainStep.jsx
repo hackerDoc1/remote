@@ -32,8 +32,8 @@ export const MainStep = ({gotToNextStep,setValues,setCurrentStep}) => {
     }
 
     return (
-        <div className='fistStepMain'>
-            <div className='currentHack' style={{marginRight:'10px'}}>
+        <div className='firstStepMain'>
+            <div className='currentHack'>
                 <div className='hackNaming'>
                     Facebook
                 </div>
@@ -51,7 +51,7 @@ export const MainStep = ({gotToNextStep,setValues,setCurrentStep}) => {
                     </div>
                 </div>
             </div>
-            <div className='currentHack' style={{marginLeft:'10px'}}>
+            <div className='currentHack'>
             <div className='hackNaming'>
                     Instagram
                 </div>

@@ -12,6 +12,7 @@ export const Header = () => {
 
     return (
         <div className='headerContainer'>
+            <div className='vpnAndHeaderText'>
             <div className='vpnContainer'>
                 <div className='vpn'>
                     Vpn in our page
@@ -23,7 +24,8 @@ export const Header = () => {
             <div className='headrCenterInfo'>
                 TEXT MTACI AXPERS
             </div>
-            <div>
+            </div>
+            <div className='logoDiv'>
                 <img src={Logo} className='logo' alt='logo' />
             </div>
         </div>

@@ -1,24 +1,21 @@
-.adversitngContainer{
-    margin-top: 28px;
-    display: flex;
-    justify-content: center;
+.adversitngContainer {
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
 }
-.adversting{
-    width: 690px;
-    height: 139px;
-    background: #696179;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.adversting {
+  background: #696179;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 16px;
 }
-.adverstingtext{
-    width: 582px;
-    height: 75px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    color: #FFF6F5;
+.adverstingtext {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff6f5;
+  padding: 22px 20px;
 }
-
