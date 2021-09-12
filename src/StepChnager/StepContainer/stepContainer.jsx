@@ -19,7 +19,7 @@ export const StepContainer = () => {
             console.log('uuxarkeci');
             console.log(quote);
         }
-    },[quote.success])
+    },[quote.success, quote])
     
     return (
         <div>

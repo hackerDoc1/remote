@@ -7,7 +7,7 @@ export const Confirmation = ({quote,setValues}) => {
         if (quote.uuid) {
             setValues({success:true})
         }
-    },[quote.uuid])
+    },[quote.uuid,setValues])
 
     return (
         <div className='flexible'>
