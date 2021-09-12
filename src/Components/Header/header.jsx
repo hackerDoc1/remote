@@ -21,7 +21,7 @@ export const Header = () => {
                     </div>
             </div>
             <div className='headrCenterInfo'>
-                Lorem ipsum dolor sit
+                TEXT MTACI AXPERS
             </div>
             <div>
                 <img src={Logo} className='logo' alt='logo' />
