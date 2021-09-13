@@ -1,6 +1,27 @@
 .mainLayout {
+  height: 100vh;
   background: url("../Assets/bk.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.rootConatiner{
+  overflow: hidden;
+  position: relative;
+}
+
+@media only screen and (max-width: 576px) {
+    .mainLayout{
+      background: url("../Assets/bk.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+        }
+    .currentStepContainer {
+      margin-top: 25px;
+      padding-bottom: 125px;
+    }
+    .addEmailContainer {
+      width: 590px;      
+    }
 }

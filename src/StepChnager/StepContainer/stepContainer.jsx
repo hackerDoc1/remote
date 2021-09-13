@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import StepWizard from 'react-step-wizard';
 import { CurrrentStep } from '../../Components/CurrentStep/currentStep';
-import { Footer } from '../../Components/Footer/footer';
 import { MainAdversting } from '../../Components/MainAdversting/mainAdversting';
 import { StepDetector } from '../StepDetector/detectro';
 
@@ -24,7 +23,6 @@ export const StepContainer = () => {
     },[quote.success, quote])
     
     return (
-        <>
         <div>
             <div className='main'>
         <MainAdversting />
@@ -40,7 +38,5 @@ export const StepContainer = () => {
             }
                           
         </div>
-        <Footer/>
-        </>
     )
 }

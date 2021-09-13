@@ -11,7 +11,6 @@
   margin: 30px 6px 0 6px;
   background: #594f63;
   box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.14);
-  backdrop-filter: blur(30px);
   border-radius: 10px;
   padding: 30px;
 }
@@ -199,4 +198,9 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+@media only screen and (max-width: 576px) {
+  .confirmationContainer{
+    width: 590px;
+  }
 }
