@@ -8,7 +8,9 @@ export const MainAdversting = () => {
         <div className='adversitngContainer'>
             <div className='adversting'>
                 <div className='adverstingtext'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit blanditiis doloribus a! Temporibus, minima, laboriosam esse autem eum quam ullam quidem expedita quos vitae quis dolor eos veniam illum tenetur.
+                    <p>We are hacking social networks using instant API requests for password reset</p>
+                    <p>If your target goes online within 4-6 hours after payment, we give 100% hacking guarantee</p>
+                    <p>We will send you Login and Password of your target</p>
                 </div>
             </div>
         </div>

@@ -24,4 +24,7 @@
     .addEmailContainer {
       width: 590px;      
     }
+    .mainLayout{
+      height: auto;
+    }
 }

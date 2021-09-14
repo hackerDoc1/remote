@@ -24,7 +24,7 @@ export const StepContainer = () => {
     
     return (
         <div>
-            <div className='main'>
+            <div className='main' >
         <MainAdversting />
             <StepWizard>
                 <StepDetector setCurrentStep={setCurrentStep} quote={quote} setValues={setValues} step={1}/>

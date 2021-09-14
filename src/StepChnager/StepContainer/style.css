@@ -1,6 +1,6 @@
 .firstStepMain {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .flexible {
@@ -8,6 +8,7 @@
   justify-content: center;
 }
 .currentHack {
+  width: 330px;
   margin: 30px 6px 0 6px;
   background: #594f63;
   box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.14);
@@ -199,8 +200,17 @@
   justify-content: center;
   margin-top: 50px;
 }
+@media only screen and (max-width: 768px) {
+  .currentHack{
+    width: auto;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .confirmationContainer{
     width: 590px;
+  }
+  .currentHack{
+    padding: 20px;
   }
 }

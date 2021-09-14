@@ -1,11 +1,12 @@
 import React from 'react';
 import './footer.css'
-
+import CRYPTO from '../../Assets/crypto.png'
 
 export const Footer = () => {
     return (
         <div className='footer'>
-            <div className='footerText'>ailjlokoajjiljkajkf;okja;ofj;oakjfs;jnas;fokna;sfn;koanf;kona;fnkl;anf;an;sf;fas</div>
+            <div className='footerText'>We only accept Bitcoin payments</div>
+            <img src={CRYPTO} alt="CRYPTO" className='crypto'/>
         </div>
     )
 }

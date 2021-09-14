@@ -12,18 +12,16 @@ export const Header = () => {
 
     return (
         <div className='headerContainer'>
-            <div className='vpnAndHeaderText'>
             <div className='vpnContainer'>
                 <div className='vpn'>
-                    Vpn in our page
+                    Vpn in our page 
                     </div>
                 <div className='vpn'>
                     {currentVpn && currentVpn.country} : {currentVpn && currentVpn.code}
                     </div>
             </div>
             <div className='headrCenterInfo'>
-                TEXT MTACI AXPERS
-            </div>
+            Let's go hack together !
             </div>
             <div className='logoDiv'>
                 <img src={Logo} className='logo' alt='logo' />
