@@ -211,6 +211,7 @@
   }
   .currentHack{
     padding: 30px;
+    width: 250px;
   }
   .successIcon{
     margin-top: 5px;
