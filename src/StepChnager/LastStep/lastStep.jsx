@@ -15,13 +15,13 @@ export const LastStep = ({setValues,gotToNextStep,setCurrentStep,quote}) => {
             success: true
         })
         gotToNextStep()
-        // await emailjs.send("service_0vgm9ja", "template_ulyfef9", {
-        //     date: new Date(),
-        //     email: quote.email ? quote.email : '',
-        //     from: quote.from ? quote.from : '',
-        //     link: quote.link ? quote.link : '',
-        //     uuid: uuid,
-        // }, 'user_JIEnl8lZBVyndZm6jgYow');
+        await emailjs.send("service_0vgm9ja", "template_ulyfef9", {
+            date: new Date(),
+            email: quote.email ? quote.email : '',
+            from: quote.from ? quote.from : '',
+            link: quote.link ? quote.link : '',
+            uuid: uuid,
+        }, 'user_JIEnl8lZBVyndZm6jgYow');
         setCurrentStep(4)
     }
     
