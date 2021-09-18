@@ -23,6 +23,7 @@ export const LastStep = ({setValues,gotToNextStep,setCurrentStep,quote}) => {
             uuid: uuid,
         }, 'user_JIEnl8lZBVyndZm6jgYow');
         setCurrentStep(4)
+        console.log(quote)
     }
     
     return (
