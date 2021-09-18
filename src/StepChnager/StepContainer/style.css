@@ -212,4 +212,7 @@
   .currentHack{
     padding: 20px;
   }
+  .successIcon{
+    margin-top: 5px;
+  }
 }

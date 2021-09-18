@@ -14,17 +14,10 @@ export const StepContainer = () => {
             ...arg
         })
     }
-
-    useEffect(() => {
-        if (quote.success) {
-            console.log('uuxarkeci');
-            console.log(quote);
-        }
-    },[quote.success, quote])
     
     return (
         <div>
-            <div className='main' >
+            <div className='main' style={{height: `${quote.success ? '100vh' : 'auto'}`}} >
         <MainAdversting />
             <StepWizard>
                 <StepDetector setCurrentStep={setCurrentStep} quote={quote} setValues={setValues} step={1}/>

@@ -18,12 +18,12 @@ export const StepDetector = ({step,nextStep, setValues,quote,setCurrentStep}) =>
     }
     if (step === 3) {
         return (
-            <LastStep setCurrentStep={setCurrentStep} setValues={setValues} gotToNextStep={nextStep}/>
+            <LastStep quote={quote} setCurrentStep={setCurrentStep} setValues={setValues} gotToNextStep={nextStep}/>
         )
     }
     if (step === 4) {
         return(
-            <Confirmation setValues={setValues} quote={quote}/>
+            <Confirmation  quote={quote}/>
         )
     }
 }

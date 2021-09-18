@@ -1,13 +1,7 @@
 import React, { useEffect } from "react";
 import SUCCESS from '../../Assets/success.png'
 
-export const Confirmation = ({quote,setValues}) => {
-
-    useEffect(() => {
-        if (quote.uuid) {
-            setValues({success:true})
-        }
-    },[quote.uuid,setValues])
+export const Confirmation = ({quote}) => {
 
     return (
         <div className='flexible'>

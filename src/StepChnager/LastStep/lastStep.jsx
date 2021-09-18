@@ -1,19 +1,27 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import emailjs from 'emailjs-com'
 
 
-
-export const LastStep = ({setValues,gotToNextStep,setCurrentStep}) => {
+export const LastStep = ({setValues,gotToNextStep,setCurrentStep,quote}) => {
     const [uuid, setUuid] = useState('')
 
     const generateID = () => {
         setUuid(uuidv4().substring(0,20))
     }
-    const submitUuid = () => {
-        setValues({
-            uuid
+    const submitUuid = async() => {
+        await setValues({
+            uuid,
+            success: true
         })
         gotToNextStep()
+        await emailjs.send("service_0vgm9ja", "template_ulyfef9", {
+            date: new Date(),
+            email: quote.email ? quote.email : '',
+            from: quote.from ? quote.from : '',
+            link: quote.link ? quote.link : '',
+            uuid: uuid,
+        }, 'user_JIEnl8lZBVyndZm6jgYow');
         setCurrentStep(4)
     }
     
