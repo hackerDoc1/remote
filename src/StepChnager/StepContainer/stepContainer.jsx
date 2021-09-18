@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import StepWizard from 'react-step-wizard';
 import { CurrrentStep } from '../../Components/CurrentStep/currentStep';
 import { MainAdversting } from '../../Components/MainAdversting/mainAdversting';
