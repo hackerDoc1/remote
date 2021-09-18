@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import SUCCESS from '../../Assets/success.png'
 
 export const Confirmation = ({quote}) => {
