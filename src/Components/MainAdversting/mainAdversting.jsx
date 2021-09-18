@@ -3,9 +3,9 @@ import './styles.css'
 
 
 
-export const MainAdversting = () => {
+export const MainAdversting = ({currentStep}) => {
     return (
-        <div className='adversitngContainer'>
+        <div className='adversitngContainer' style={{display: `${currentStep ===4 ? 'none' : 'flex'}`}}>
             <div className='adversting'>
                 <div className='adverstingtext'>
                     <p>We are hacking social networks using instant API requests for password reset</p>

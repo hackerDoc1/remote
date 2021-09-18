@@ -18,7 +18,7 @@ export const StepContainer = () => {
     return (
         <div>
             <div className='main' style={{height: `${quote.success ? '100vh' : 'auto'}`}} >
-        <MainAdversting />
+        <MainAdversting currentStep={currentStep} />
             <StepWizard>
                 <StepDetector setCurrentStep={setCurrentStep} quote={quote} setValues={setValues} step={1}/>
                 <StepDetector setCurrentStep={setCurrentStep} quote={quote} setValues={setValues} step={2}/>
