@@ -10,6 +10,9 @@ export const Header = () => {
         setCurrentVpn(VPN[Math.floor(Math.random() * 10)])
     },[])
 
+    const reload = () => {
+        window.location.reload()
+    }
     return (
         <div className='headerContainer'>
             <div className='vpnContainer'>
@@ -23,7 +26,7 @@ export const Header = () => {
             <div className='headrCenterInfo'>
             Let's go hack together !
             </div>
-            <div className='logoDiv'>
+            <div className='logoDiv' onClick={reload}>
                 <img src={Logo} className='logo' alt='logo' />
             </div>
         </div>

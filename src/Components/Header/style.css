@@ -37,6 +37,7 @@
 }
 .logoDiv {
   grid-area: c;
+  cursor: pointer;
   text-align: right;
 }
 .logo {
